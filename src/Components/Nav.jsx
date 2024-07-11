@@ -1,9 +1,10 @@
 function Nav() {
   return (
     <div className="flex bg-white justify-center items-center py-4 px-10 shadow-xl">
-     <nav className="">
+     <nav className="flex items-center">
       <a className="inline-block text-white items-center p-0 px-2 bg-blue-600 " href=""> R O <br />
                   F Q </a>
+                  <p className="text-xl font-bold pl-4">ROFIIQ</p>
      </nav>
      <nav className=" justify-center ">
       <a className="px-10 hover:text-blue-800" href="">Home</a>
